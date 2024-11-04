@@ -1,0 +1,14 @@
+# Compiled
+build
+dist
+
+# Coverage
+coverage
+
+# Dependency directories
+.next
+node_modules/
+
+# Logs
+logs
+*.log
