@@ -4,5 +4,17 @@
   "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "es5",
-  "plugins": ["prettier-plugin-organize-imports"]
+  "plugins": ["@ianvs/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "^react$",
+    "",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "<BUILTIN_MODULES>",
+    "",
+    "^[.]",
+    "",
+    ".(sc|sa|c)ss$"
+  ],
+  "importOrderTypeScriptVersion": "5.0.0"
 }

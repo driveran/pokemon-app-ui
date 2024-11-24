@@ -7,7 +7,8 @@
     "build:start": "cd dist && PORT=3000 npx serve",
     "start": "webpack serve --mode development",
     "start:live": "webpack serve --mode development --live-reload --hot",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prettier": "prettier --write ./src/*"
   },
   "license": "MIT",
   "author": {
@@ -31,6 +32,7 @@
     "@babel/preset-env": "^7.15.8",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.10.4",
+    "@ianvs/prettier-plugin-sort-imports": "^4.4.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "autoprefixer": "^10.1.0",
@@ -48,11 +50,12 @@
     "postcss-loader": "^4.1.0",
     "prettier": "3.3.3",
     "prettier-eslint": "^16.3.0",
-    "prettier-plugin-organize-imports": "^4.1.0",
+    "sass": "^1.81.0",
+    "sass-loader": "^16.0.3",
     "style-loader": "^3.3.0",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.15.0",
-    "webpack": "^5.57.1",
+    "webpack": "^5.96.1",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.3.1"
   },
